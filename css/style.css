@@ -1,0 +1,1022 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.subtitle{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pra{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ============================ navbar part start ============================ */
+
+#navbar{
+    width: 100%;
+    height: 69px;
+    background: #fff;
+    margin-top: 36px;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#navbar .nav-items .logo img{
+    width: 126px;
+    height: 29px;
+}
+
+#navbar .nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar .nav-items .menu ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;
+    color: #036E8A;
+}
+#navbar .nav-items .menu ul li a{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#navbar .icon i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #036E8A;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #036E8A;
+    margin: 0 8px 0 0;
+    fill: #036E8A;
+}
+
+/* ============================ navbar part end ============================ */
+
+
+/* ============================ banner part start ============================ */
+
+#banner{
+    background: url(../images/banner.webp) no-repeat center;
+    background-size: cover;
+    padding-top: 257px;
+    padding-bottom: 200px;
+}
+#banner .banner-part{
+    max-width: 784px;
+    margin: 0 auto;
+}
+#banner .banner-part h1{
+    max-width: 724px;
+    color: #FFF;
+    font-size: 89px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+#banner .banner-part .pra{
+    color: #FFF;
+    margin-top: 24px;
+
+}
+.form-items{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    column-gap: 15px;
+}
+#banner .banner-part .search{
+    width: 429px;
+    height: 61px;
+    background: #FFF;
+    border: 1px solid #036E8A;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner .banner-part .search input{
+    width: 100%;
+    height: 100%;
+    padding-left: 96px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    border: none;
+
+}
+#banner .banner-part .search input::placeholder{
+    color: #036E8A;
+}
+
+#banner .banner-part .search i{
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+    width: 27.293px;
+    height: 27.293px;
+    color: #036E8A;
+    font-size: 27px;
+}
+
+#banner .banner-part .map{
+    width: 58px;
+    height: 58px;
+    border: 1px solid #FFF;
+    background: #FF8000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .banner-part .map i{
+    width: 27px;
+    height: 32px;
+
+}
+
+/* ============================ banner part end ============================ */
+
+
+/* ============================ destination part start ============================ */
+#destination{
+    padding: 148px;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 999;
+}
+.destination-part {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.destination-part .text{
+    width: 560px;
+}
+.destination-part .text .title{
+    margin-top: 30px;
+}
+.destination-part .text .pra{
+    color: #000;
+    margin-top: 30px;
+}
+.destination-part .video{
+    width: 508px;
+    height: 369px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.destination-part .video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.destination-part .video .desti-icon{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.destination-part .video .desti-icon i{
+    color: #036E8A;
+    font-size: 23px;
+}
+.book{
+    margin-top: 70px;
+    border: 2px solid #036E8A;
+    border-radius: 10px;
+    padding: 54px 64px 50px 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.book a{
+    display: inline-block;
+    padding: 16px 45px;
+    border-radius: 10px;
+    background: #FF8000;
+    color:#FFF;
+    color: #FFF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.book .location{
+    display: flex;
+    gap: 166px;
+}
+.book .location .book-text h4{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.book .location .book-text{
+    position: relative;
+}
+.book .location .book-text::after{
+    position: absolute;
+    content: "";
+    top: 8px;
+    right: -80px;
+    height: 96px;
+    width: 5px;
+    background: #FF8000;
+}
+.book .location .book-text .star{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 14px;
+}
+.book .location .book-text .star i{
+    color: #FF8000;
+    font-size: 25px;
+}
+.book .location .book-text .star i:last-child{
+    opacity: .5;
+}
+.book .location .tour .pra{
+    color: #000;
+}
+.book .location .tour strong{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* ============================ destination part end ============================ */
+
+/* ======================= special package part start ============================= */
+.pakege-shape{
+    position: relative;
+}
+.pakege-shape img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,50%);
+}
+.special-part{
+    position: relative;
+    z-index: 999;
+}
+.special-part .title{
+    text-align: center;
+    font-size: 60px;
+}
+.special-part .pra{
+    text-align: center;
+    color: #000;
+    width: 830px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.pakege{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+.pakege-items{
+    width: 356px;
+    padding-top: 90px;
+    padding-bottom: 114px;
+    position: relative;
+    z-index: 999;
+}
+.pakege-item2{
+    padding: 36px 36px 76px 36px;
+    border: 1px solid #036E8A;
+    border-radius: 12px;
+    position: relative;
+    transition: all linear .3s;
+}
+.pakege-item2 .title{
+    font-size: 40px;
+    transition: all linear .3s;
+}
+.pakege-item2 .price{
+    font-size: 60px;
+}
+.pakege-item2  h5{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    transition: all linear .3s;
+}
+.pakege-item2 ul{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+     
+}
+.pakege-item2 ul li{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.pakege-item2 ul li i{
+    color: #036E8A;
+    transition: all linear .3s;
+
+}
+
+.pakege-item2 ul li span{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fa-circle-check.disable{
+    opacity: .5;
+}
+.pakege-item2 a{
+    width: 200px;
+    display: inline-block;
+    padding: 14px 28px;
+    background: #036E8A;
+    color: #FFF;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    bottom: -25px;
+    bottom: 0;
+    transition: all linear .3s;
+
+}
+.pakege-items .pra{
+    text-align: center;
+    margin-top: 42px;
+    color: #000;
+}
+.pakege-item2:hover{
+    border: 1px solid #FF8000;
+    
+}
+.pakege-item2:hover .title, .pakege-item2:hover h5, .pakege-item2:hover ul li i{
+    color: #FF8000;
+}
+.pakege-item2 a:hover{
+    background: #FF8000;
+}
+/* ======================= special package part end ============================= */
+/* ======================= destination2 part start ============================= */
+#destination2{
+    padding: 70px 0;
+    background: #036E8A;
+}
+.destination2-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 999;
+}
+.destination2-part .image{
+    width: 508px;
+    height: 523px;
+    border-radius: 15px;
+}
+.destination2-part .text{
+    width: 566px;
+}
+.destination2-part .text .subtitle{
+    color:#FFF;
+}
+
+.destination2-part .text .title{
+    color: #FFF;
+    margin: 30px 0;
+}
+.destination2-part .text .pra{
+    color: #fff;
+    line-height: 35px;
+}
+.shap {
+    position: relative;
+}
+.shap img{
+    position: absolute;
+    left: 204px;
+    bottom: -28px;
+}
+/* ======================= destination2 part end ============================= */
+
+/* ======================= gallary part start ============================= */
+.gallary-part .text{
+    text-align: center;
+    margin: 111px 0 106px 0;
+}
+.gallary-part .text .title{
+    font-size: 60px;
+}
+.gallary-part .text .pra{
+    text-align: center;
+    color: #000;
+    width: 830px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.images{
+    margin-top: 106px;
+    margin-bottom: 112px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.gallary-part .images .gal-items{
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+.gal-item{
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+}
+.gal-item.large{
+    height: 407px;
+ 
+
+}
+
+.gal-item.small{
+    height: 266px;
+}
+
+.gal-item .overlay{
+    position: absolute;
+    bottom: 30px;
+    left:30px;
+}
+.gal-item .overlay h3{
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gal-item .overlay h6{
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.gal-shap{
+    position: relative;
+}
+.gal-shap img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ======================= gallary part end ============================= */
+
+/* ======================= counter part start ============================= */
+#counter{
+    padding: 90px 0 120px 0;
+    background: url(../images/counter.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 999;
+}
+.counter-part{
+    display: flex;
+    justify-content: space-between;
+}
+.counter-item{
+    width: 22%;
+    text-align: center;
+
+}
+.counter-part .counter-item h3{
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.counter-part .counter-item strong{
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ======================= counter part end ============================= */
+
+/* ======================= newsletter part start ============================= */
+#news-part{
+    padding: 100px 0 130px 0;
+    position: relative;
+    z-index: 999;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-bottom: 20px;
+}
+.news-item{
+    width: 275px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.news-item:last-child{
+    width: 850px;
+}
+.news-box{
+    display: flex;
+    justify-content: space-between;
+}
+.news-box .news-images{
+    width: 514px;
+    height: 482px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.news-box .news-text{
+    width: 566px;
+}
+
+.news-text .subtitle{
+    color: #036E8A;
+    padding-top:80px;
+    padding-bottom: 30px;
+}
+form{
+    margin-top: 46px;
+
+}
+form .formbox{
+    position: relative;
+}
+form .formbox i{
+    font-size: 30px;
+    color: #036E8A;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(200%,-50%);
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+form .formbox input{
+    border: 1px solid #036E8A;
+    width: 340px;
+    height: 81px;
+    border-radius: 10px;
+    padding: 28px 63px 28px 108px;
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+form .formbox input::placeholder{
+    color: #036E8A;
+}
+
+form button{
+    background: #FF8000;
+    border-radius: 20px;
+    padding: 23px 40px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+
+
+/* ======================= newsletter part end ============================= */
+
+/* ======================= brand part start ============================= */
+#brand-part{
+    position: relative;
+    z-index: 999;
+}
+.brand{
+    border: 3px solid #036E8A;
+    border-radius: 20px;
+    padding: 70px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-item{
+    position: relative;
+}
+
+.brand-item::after{
+    position: absolute;
+    top: 0;
+    right: -63px ;
+    content: "";
+    width: 3px;
+    height: 72px;
+    border-radius: 5px;
+    background: #036E8A;
+}
+
+.brand-item:last-child::after{
+    background: transparent;
+}
+/* ======================= brand part end ============================= */
+
+/* ======================= review part start ============================= */
+#revview-part{
+    padding-bottom: 155px;
+    
+}
+
+.review-container{
+    position: relative;
+    z-index: 555;
+}
+.r-shap{
+    position: relative;
+}
+.r-shap img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
+
+#revview-part .title{
+    text-align: center;
+    margin-bottom: 23px;
+    font-size: 60px ;
+}
+
+#revview-part .pra{
+    width: 830px;
+    text-align: center;
+    margin: 0 auto;
+}
+#revview-part .review{
+    margin-top: 110px;
+    display: flex;
+    column-gap: 72px;
+    row-gap: 77px;
+    flex-wrap: wrap;
+}
+#revview-part .review-item{
+    width: 534px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px 59px;
+    -webkit-box-shadow: -1px 0px 17px -4px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 0px 17px -4px rgba(0,0,0,0.15);
+    box-shadow: -1px 0px 17px -4px rgba(0,0,0,0.15);
+    transition: all linear .3s;
+}
+
+#revview-part .review-item .r-img{
+    width: 113px;
+    height: 113px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#revview-part .review-item .r-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review-details{
+    margin-top: 26px;
+    text-align: center;
+    
+}
+.review-details h4{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all linear .3s;
+}
+.review-details h5{
+    color: #262525;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear .3s;
+}
+.review-details .icon{
+    margin-top: 8px;
+}
+.review-details .icon i{
+    color: #FF8000;
+    transition: all linear .3s;
+}
+.review-details p{
+    width: 420px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 21px;
+    transition: all linear .3s;
+}
+#revview-part .review-item:nth-child(odd):hover{
+    background-color: #036E8A;
+    
+}
+.review-item:nth-child(odd):hover .review-details h4{
+    color: #FFF;
+}
+
+.review-item:nth-child(odd):hover .review-details h5{
+    color: #FFF;
+}
+.review-item:nth-child(odd):hover .review-details i{
+    color: #FFF;
+}
+.review-item:nth-child(odd):hover .review-details p{
+    color: #FFF;
+}
+
+
+#revview-part .review-item:nth-child(even):hover{
+    background: #FF8000;
+    
+}
+.review-item:nth-child(even):hover .review-details h4{
+    color: #FFF;
+}
+
+.review-item:nth-child(even):hover .review-details h5{
+    color: #FFF;
+}
+.review-item:nth-child(even):hover .review-details i{
+    color: #FFF;
+}
+.review-item:nth-child(even):hover .review-details p{
+    color: #FFF;
+}
+
+
+/* ======================= review part end ============================= */
+
+/* ======================= message part start ============================= */
+#message-us{
+    margin-bottom: 120px;
+}
+#message-us .msg{
+    position: relative;
+    background: #036E8A;
+    border-radius: 40px;
+}
+#message-us .msg .message{
+    padding: 85px;
+    position: relative;
+    z-index: 999;
+}
+#message-us .message h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    margin-bottom: 135px;
+}
+
+#message-us .message h2::after{
+    position: absolute;
+    content: "";
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 778px;
+    height: 3px;
+    background: #FFF;
+    border-radius: 8px;
+
+}
+#message-us .message .pra{
+    width:728px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 103px;
+}
+
+
+#message-us .message .pra::after{
+    position: absolute;
+    content: "";
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 411px;
+    height: 3px;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+#message-us .message .btn{
+    text-align: center;
+}
+#message-us .message .btn button{
+    background: #FF8000;
+    padding: 21px 67px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    border-radius: 15px;
+
+}
+#message-us .msg img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* ======================= message part end ============================= */
+
+/* ======================= footer part start ============================= */
+.footer-part{
+    padding-bottom: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-part .footer-item h3{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 24.917px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+
+.footer-part .footer-item h3::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -32px;
+    width: 142px;
+    height: 2px;
+    background: #036E8A;
+}
+.footer-part .footer-item ul li{
+    margin-bottom: 25px;
+}
+.footer-part .footer-item ul li a{
+    display: inline-block;
+    color: #262525;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copyright{
+    background: #FF8000;
+    padding: 42px 0;
+}
+
+.copyright .copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy .pra{
+    color: #FFF;
+}
+
+.copyright .copy .icon i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 0 8px 0 0;
+}
+
+
+/* ======================= footer part end ============================= */
